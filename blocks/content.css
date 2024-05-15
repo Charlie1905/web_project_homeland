@@ -1,4 +1,4 @@
-.intro {
+.content {
   width: 830px;
   height: 607px;
   display: flex;
@@ -6,7 +6,7 @@
   margin: 0 148px;
 }
 
-.intro__title {
+.content__title {
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-.intro__text {
+.content__text {
   width: 738px;
   height: 135.66px;
   font-family: Inter;
@@ -28,7 +28,7 @@
   margin: 0;
 }
 
-.intro__text-name {
+.content__text-name {
   width: 732px;
   height: 33.91px;
   font-family: Inter;
@@ -40,7 +40,7 @@
   padding-top: 10px;
 }
 
-.intro__footer {
+.content__footer {
   width: 722px;
   height: 181.54px;
   font-family: Inter;
