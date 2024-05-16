@@ -1,8 +1,11 @@
 .content {
-  width: 830px;
-  height: 607px;
   display: flex;
   flex-direction: column;
+}
+
+.content__intro {
+  width: 830px;
+  height: 607px;
   margin: 0 148px;
 }
 
