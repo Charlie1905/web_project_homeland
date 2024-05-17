@@ -1,16 +1,14 @@
 .content {
-  /*display: flex;
-  flex-wrap: wrap;*/
-  flex-direction: column;
-  max-width: 830px;
+  max-width: 984px;
   width: 100%;
-  /*max-height: 607px;*/
-  padding-bottom: 132px;
-  box-sizing: border-box;
+  padding-bottom: 92px;
 }
 
 .content__intro {
-  margin: 0 148px;
+  max-width: 830px;
+  display: block;
+  flex-direction: column;
+  text-align: center;
 }
 
 .content__title {
@@ -19,7 +17,6 @@
   font-weight: 900;
   line-height: 58px;
   text-align: left;
-
   padding-top: 92px;
   margin: 0 auto;
 }
@@ -31,31 +28,29 @@
   line-height: 34px;
   text-align: left;
   padding-top: 40px;
-  width: 100%;
-  margin: 0;
+  max-width: 830px;
+  /*margin: 0;*/
 }
 
 .content__text-name {
-  width: 732px;
-  height: 33.91px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   text-align: right;
-  margin: 0;
+  max-width: 830px;
+  /*margin: 0;*/
   padding-top: 10px;
 }
 
 .content__footer {
-  width: 722px;
-  height: 181.54px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 26.08px;
   text-align: left;
-  margin: 0;
+  max-width: 830px;
+  /*margin: 0;*/
   padding-top: 32px;
 }
 
@@ -73,6 +68,11 @@
 }
 
 @media screen and (max-width: 320px) {
+  .content__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
   .content__text {
     line-height: 30px;
   }
