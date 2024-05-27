@@ -1,14 +1,17 @@
 .content {
-  max-width: 984px;
-  width: 100%;
+  /*max-width: 1284px;
+  width: 100%;*/
   padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content__intro {
   max-width: 830px;
-  display: block;
-  flex-direction: column;
-  text-align: center;
+  text-align: left;
+  /*margin-left: 11.56%;*/
+  margin-right: 10%;
 }
 
 .content__title {
@@ -29,6 +32,7 @@
   text-align: left;
   padding-top: 40px;
   max-width: 830px;
+  margin-right: 10%;
   /*margin: 0;*/
 }
 
@@ -41,6 +45,7 @@
   max-width: 830px;
   /*margin: 0;*/
   padding-top: 10px;
+  margin-right: 10%;
 }
 
 .content__footer {
@@ -50,13 +55,16 @@
   line-height: 26.08px;
   text-align: left;
   max-width: 830px;
-  /*margin: 0;*/
+  margin: 0;
   padding-top: 32px;
+  padding-bottom: 118px;
+  margin-right: 10%;
 }
 
 @media screen and (max-width: 768px) {
   .content {
     margin: 0 auto;
+    padding-top: 90px;
   }
 
   .content__title {
