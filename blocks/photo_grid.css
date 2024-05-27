@@ -1,17 +1,16 @@
 .photo_grid {
+  max-width: 1184px;
   padding-bottom: 10%;
   padding-left: 1.5%;
   padding-right: 1.5%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
 }
 
-.image_photo-grid {
-  width: 100%;
-  min-height: 100%;
-  max-height: 100%;
+.image__photo-grid {
+  max-width: 100%;
   object-fit: fill;
 }
