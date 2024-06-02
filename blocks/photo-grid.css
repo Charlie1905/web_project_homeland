@@ -9,7 +9,7 @@
   grid-gap: 10px;
 }
 
-.image__photo-grid {
+.photo-grid__image {
   /*max-width: 248px;*/
   width: 100%;
   object-fit: fill;
@@ -24,7 +24,7 @@
     max-width: 100%;
   }
 
-  .image__photo-grid {
+  .photo-grid__image {
     max-width: 352px;
     width: 100%;
     object-fit: fill;
@@ -41,7 +41,7 @@
     padding-right: 16px;
   }
 
-  .image__photo-grid {
+  .photo-grid__image {
     width: 100%;
     object-fit: fill;
   }
@@ -55,7 +55,7 @@
     grid-gap: 12px;
   }
 
-  .image__photo-grid {
+  .photo-grid__image {
     max-width: 288px;
     width: 100%;
     object-fit: fill;
