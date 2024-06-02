@@ -1,0 +1,40 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.head_subtitle {
+  grid-area: subtitle;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.head__author-name {
+  grid-area: author;
+  max-width: 456px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .head__subtitle {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    letter-spacing: 0.12em;
+    text-align: left;
+  }
+}

@@ -48,36 +48,6 @@
   /* padding-top: 48px; */
 }
 
-.head {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
-}
-
-.head_subtitle {
-  grid-area: subtitle;
-  font-family: Inter;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  letter-spacing: 0.12em;
-  text-align: left;
-  color: #aaaaaa;
-}
-
-.head__author-name {
-  grid-area: author;
-  max-width: 456px;
-  color: #ffffff;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-  margin: 0;
-}
-
 .place__paragraph {
   grid-area: para;
   max-width: 484px;
@@ -116,7 +86,7 @@
   cursor: url(../images/cursor.png), auto;
 }
 
-.places__place_image:hover {
+.place__image:hover {
   filter: brightness(0.5);
   cursor: url(../images/cursorI.png), auto;
 }
@@ -127,7 +97,7 @@
     flex-direction: column;
   }
 
-  .places__place {
+  .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -139,13 +109,13 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-  .places__place_title {
+  .place__title {
     font-size: 42px;
     line-height: 46px;
     padding-bottom: 0;
   }
 
-  .places__place_paragraph {
+  .place__paragraph {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -153,7 +123,7 @@
     text-align: left;
   }
 
-  .places__place_image {
+  .place__image {
     grid-area: image;
     max-width: 340px;
     max-height: 340px;
@@ -169,7 +139,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .places__place {
+  .place {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -177,7 +147,7 @@
     border: 1px solid red;
   }
 
-  .places__place_paragraph {
+  .place__paragraph {
     max-width: 100%;
   }
 
@@ -187,7 +157,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__place {
+  .place {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -195,13 +165,13 @@
     border: 1px solid red;
   }
 
-  .places__place_paragraph {
+  .place__paragraph {
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .places__place_image {
+  .place__image {
     grid-area: image;
     max-width: 320px;
     max-height: 320px;
@@ -211,7 +181,7 @@
     margin: 0 auto;
   }
 
-  .places__place_title {
+  .place__title {
     font-family: Inter;
     font-size: 32px;
     font-weight: 900;
@@ -219,14 +189,6 @@
     text-align: left;
   }
 
-  .places__head_subtitle {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14.52px;
-    letter-spacing: 0.12em;
-    text-align: left;
-  }
   .places__button {
     width: 100%;
     object-fit: fill;
