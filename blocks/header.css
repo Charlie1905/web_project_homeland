@@ -77,3 +77,28 @@
     padding-top: 11%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 8.5%;
+  }
+
+  .header__title {
+    max-width: 288px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .header__subtitle {
+    padding-top: 16px;
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__image {
+    width: 100%;
+    padding-top: 11%;
+  }
+}
